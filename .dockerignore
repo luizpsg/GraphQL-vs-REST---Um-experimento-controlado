@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+.gitignore
+
+# Artefatos LaTeX (nao necessarios para o dashboard)
+report/*.aux
+report/*.log
+report/*.out
+report/*.synctex.gz
+report/preview*.png
