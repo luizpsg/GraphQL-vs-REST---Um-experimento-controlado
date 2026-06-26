@@ -1,0 +1,1601 @@
+run_id,iteration,scenario,scenario_desc,api,latency_ms,size_bytes
+1,1,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.5414,554
+2,1,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.767,574
+3,1,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5864,554
+4,1,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7638,87
+5,1,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.6715,18380
+6,1,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.1946,13238
+7,1,C4_collection,Colecao (50 usuarios completos),REST,2.8193,29943
+8,1,C4_collection,Colecao (50 usuarios completos),GraphQL,4.089,30062
+9,2,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.8643,554
+10,2,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.0158,574
+11,2,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8432,554
+12,2,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.6853,87
+13,2,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.5352,18380
+14,2,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.8394,13238
+15,2,C4_collection,Colecao (50 usuarios completos),REST,1.8838,29943
+16,2,C4_collection,Colecao (50 usuarios completos),GraphQL,4.2735,30062
+17,3,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.6379,554
+18,3,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9819,574
+19,3,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.6642,554
+20,3,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.4441,87
+21,3,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.3611,18380
+22,3,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.7233,13238
+23,3,C4_collection,Colecao (50 usuarios completos),REST,1.773,29943
+24,3,C4_collection,Colecao (50 usuarios completos),GraphQL,4.8634,30062
+25,4,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6409,554
+26,4,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.2598,574
+27,4,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.7086,554
+28,4,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7184,87
+29,4,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.2226,18380
+30,4,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.7435,13238
+31,4,C4_collection,Colecao (50 usuarios completos),REST,1.9206,29943
+32,4,C4_collection,Colecao (50 usuarios completos),GraphQL,3.9158,30062
+33,5,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.7564,554
+34,5,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.955,574
+35,5,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.47,554
+36,5,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.8147,87
+37,5,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.117,18380
+38,5,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.279,13238
+39,5,C4_collection,Colecao (50 usuarios completos),REST,1.7805,29943
+40,5,C4_collection,Colecao (50 usuarios completos),GraphQL,3.763,30062
+41,6,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.5663,554
+42,6,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.0396,574
+43,6,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.6447,554
+44,6,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.6265,87
+45,6,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.9193,18380
+46,6,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.2794,13238
+47,6,C4_collection,Colecao (50 usuarios completos),REST,1.8236,29943
+48,6,C4_collection,Colecao (50 usuarios completos),GraphQL,4.5887,30062
+49,7,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5456,554
+50,7,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9643,574
+51,7,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8991,554
+52,7,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.5591,87
+53,7,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,14.9099,18380
+54,7,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.3223,13238
+55,7,C4_collection,Colecao (50 usuarios completos),REST,1.7167,29943
+56,7,C4_collection,Colecao (50 usuarios completos),GraphQL,3.7905,30062
+57,8,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.5484,554
+58,8,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.1731,574
+59,8,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5603,554
+60,8,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.8066,87
+61,8,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.974,18380
+62,8,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.2211,13238
+63,8,C4_collection,Colecao (50 usuarios completos),REST,1.7112,29943
+64,8,C4_collection,Colecao (50 usuarios completos),GraphQL,3.8259,30062
+65,9,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.6378,554
+66,9,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.7593,574
+67,9,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5022,554
+68,9,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6648,87
+69,9,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.3792,18380
+70,9,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.3983,13238
+71,9,C4_collection,Colecao (50 usuarios completos),REST,2.5953,29943
+72,9,C4_collection,Colecao (50 usuarios completos),GraphQL,4.5677,30062
+73,10,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.7037,554
+74,10,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.6672,574
+75,10,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,3.1988,554
+76,10,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.5432,87
+77,10,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.2557,18380
+78,10,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.7205,13238
+79,10,C4_collection,Colecao (50 usuarios completos),REST,1.9497,29943
+80,10,C4_collection,Colecao (50 usuarios completos),GraphQL,3.763,30062
+81,11,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.4437,554
+82,11,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.5955,574
+83,11,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.3121,554
+84,11,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.6142,87
+85,11,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,9.9102,18380
+86,11,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.2767,13238
+87,11,C4_collection,Colecao (50 usuarios completos),REST,1.5978,29943
+88,11,C4_collection,Colecao (50 usuarios completos),GraphQL,3.7465,30062
+89,12,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.4374,554
+90,12,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.6779,574
+91,12,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.4657,554
+92,12,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.801,87
+93,12,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,10.6566,18380
+94,12,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.0731,13238
+95,12,C4_collection,Colecao (50 usuarios completos),REST,1.7106,29943
+96,12,C4_collection,Colecao (50 usuarios completos),GraphQL,4.4057,30062
+97,13,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.5425,554
+98,13,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2193,574
+99,13,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.4462,554
+100,13,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.2449,87
+101,13,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,9.3195,18380
+102,13,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.032,13238
+103,13,C4_collection,Colecao (50 usuarios completos),REST,1.4885,29943
+104,13,C4_collection,Colecao (50 usuarios completos),GraphQL,3.9362,30062
+105,14,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.3935,554
+106,14,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.5252,574
+107,14,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.3252,554
+108,14,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.1301,87
+109,14,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,9.3985,18380
+110,14,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.0926,13238
+111,14,C4_collection,Colecao (50 usuarios completos),REST,1.5795,29943
+112,14,C4_collection,Colecao (50 usuarios completos),GraphQL,3.527,30062
+113,15,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.5581,554
+114,15,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.5991,574
+115,15,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.2966,554
+116,15,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.2648,87
+117,15,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,10.3545,18380
+118,15,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.2572,13238
+119,15,C4_collection,Colecao (50 usuarios completos),REST,1.6884,29943
+120,15,C4_collection,Colecao (50 usuarios completos),GraphQL,3.6578,30062
+121,16,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.3985,554
+122,16,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.5338,574
+123,16,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5453,554
+124,16,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.2307,87
+125,16,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.3134,18380
+126,16,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.482,13238
+127,16,C4_collection,Colecao (50 usuarios completos),REST,1.739,29943
+128,16,C4_collection,Colecao (50 usuarios completos),GraphQL,3.6067,30062
+129,17,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.5388,554
+130,17,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.6179,574
+131,17,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5979,554
+132,17,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.4933,87
+133,17,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.6984,18380
+134,17,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.6289,13238
+135,17,C4_collection,Colecao (50 usuarios completos),REST,1.6494,29943
+136,17,C4_collection,Colecao (50 usuarios completos),GraphQL,4.277,30062
+137,18,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5043,554
+138,18,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.0453,574
+139,18,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.6876,554
+140,18,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7107,87
+141,18,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,13.4713,18380
+142,18,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.4156,13238
+143,18,C4_collection,Colecao (50 usuarios completos),REST,2.0119,29943
+144,18,C4_collection,Colecao (50 usuarios completos),GraphQL,3.9272,30062
+145,19,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.7935,554
+146,19,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9383,574
+147,19,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.6396,554
+148,19,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8205,87
+149,19,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.9118,18380
+150,19,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.452,13238
+151,19,C4_collection,Colecao (50 usuarios completos),REST,1.8715,29943
+152,19,C4_collection,Colecao (50 usuarios completos),GraphQL,3.8914,30062
+153,20,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.7533,554
+154,20,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.8981,574
+155,20,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.7331,554
+156,20,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.6315,87
+157,20,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.5003,18380
+158,20,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.6672,13238
+159,20,C4_collection,Colecao (50 usuarios completos),REST,1.7484,29943
+160,20,C4_collection,Colecao (50 usuarios completos),GraphQL,3.9132,30062
+161,21,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.6728,554
+162,21,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.8157,574
+163,21,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5274,554
+164,21,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.5665,87
+165,21,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.3876,18380
+166,21,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.5282,13238
+167,21,C4_collection,Colecao (50 usuarios completos),REST,1.7842,29943
+168,21,C4_collection,Colecao (50 usuarios completos),GraphQL,3.9731,30062
+169,22,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8052,554
+170,22,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.8433,574
+171,22,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.7766,554
+172,22,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.5226,87
+173,22,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,13.1423,18380
+174,22,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.8172,13238
+175,22,C4_collection,Colecao (50 usuarios completos),REST,2.0343,29943
+176,22,C4_collection,Colecao (50 usuarios completos),GraphQL,3.8222,30062
+177,23,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8705,554
+178,23,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.147,574
+179,23,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.724,554
+180,23,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.0147,87
+181,23,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.8619,18380
+182,23,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.8796,13238
+183,23,C4_collection,Colecao (50 usuarios completos),REST,2.1027,29943
+184,23,C4_collection,Colecao (50 usuarios completos),GraphQL,4.1879,30062
+185,24,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8667,554
+186,24,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.1315,574
+187,24,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.0353,554
+188,24,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.0543,87
+189,24,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,13.7135,18380
+190,24,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.5598,13238
+191,24,C4_collection,Colecao (50 usuarios completos),REST,1.8687,29943
+192,24,C4_collection,Colecao (50 usuarios completos),GraphQL,4.0955,30062
+193,25,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8648,554
+194,25,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.1498,574
+195,25,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8636,554
+196,25,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.8588,87
+197,25,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.9019,18380
+198,25,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.4672,13238
+199,25,C4_collection,Colecao (50 usuarios completos),REST,2.0596,29943
+200,25,C4_collection,Colecao (50 usuarios completos),GraphQL,4.911,30062
+201,26,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8597,554
+202,26,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9976,574
+203,26,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8252,554
+204,26,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7608,87
+205,26,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,13.1138,18380
+206,26,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.7849,13238
+207,26,C4_collection,Colecao (50 usuarios completos),REST,1.9488,29943
+208,26,C4_collection,Colecao (50 usuarios completos),GraphQL,4.1709,30062
+209,27,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8688,554
+210,27,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.5274,574
+211,27,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8926,554
+212,27,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7982,87
+213,27,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,13.1124,18380
+214,27,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.71,13238
+215,27,C4_collection,Colecao (50 usuarios completos),REST,2.8575,29943
+216,27,C4_collection,Colecao (50 usuarios completos),GraphQL,4.1874,30062
+217,28,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.1056,554
+218,28,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.0575,574
+219,28,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.9141,554
+220,28,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.8481,87
+221,28,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.012,18380
+222,28,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.5865,13238
+223,28,C4_collection,Colecao (50 usuarios completos),REST,1.9764,29943
+224,28,C4_collection,Colecao (50 usuarios completos),GraphQL,4.1381,30062
+225,29,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.7547,554
+226,29,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.0259,574
+227,29,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8197,554
+228,29,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.9462,87
+229,29,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,13.6385,18380
+230,29,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.5933,13238
+231,29,C4_collection,Colecao (50 usuarios completos),REST,1.8515,29943
+232,29,C4_collection,Colecao (50 usuarios completos),GraphQL,3.8644,30062
+233,30,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.9656,554
+234,30,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.8631,574
+235,30,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.734,554
+236,30,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7699,87
+237,30,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.5485,18380
+238,30,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.6198,13238
+239,30,C4_collection,Colecao (50 usuarios completos),REST,1.9506,29943
+240,30,C4_collection,Colecao (50 usuarios completos),GraphQL,4.0087,30062
+241,31,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6212,554
+242,31,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.0506,574
+243,31,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.822,554
+244,31,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7596,87
+245,31,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.1234,18380
+246,31,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.7832,13238
+247,31,C4_collection,Colecao (50 usuarios completos),REST,1.896,29943
+248,31,C4_collection,Colecao (50 usuarios completos),GraphQL,4.321,30062
+249,32,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6736,554
+250,32,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.235,574
+251,32,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8385,554
+252,32,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7956,87
+253,32,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.2208,18380
+254,32,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.518,13238
+255,32,C4_collection,Colecao (50 usuarios completos),REST,1.8873,29943
+256,32,C4_collection,Colecao (50 usuarios completos),GraphQL,3.8766,30062
+257,33,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8091,554
+258,33,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9476,574
+259,33,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8684,554
+260,33,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.8276,87
+261,33,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.782,18380
+262,33,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.6034,13238
+263,33,C4_collection,Colecao (50 usuarios completos),REST,1.755,29943
+264,33,C4_collection,Colecao (50 usuarios completos),GraphQL,3.954,30062
+265,34,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4988,554
+266,34,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9444,574
+267,34,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.6749,554
+268,34,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.533,87
+269,34,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.0754,18380
+270,34,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.4865,13238
+271,34,C4_collection,Colecao (50 usuarios completos),REST,1.7485,29943
+272,34,C4_collection,Colecao (50 usuarios completos),GraphQL,3.7507,30062
+273,35,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4165,554
+274,35,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9945,574
+275,35,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5029,554
+276,35,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.4974,87
+277,35,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.991,18380
+278,35,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.2643,13238
+279,35,C4_collection,Colecao (50 usuarios completos),REST,1.685,29943
+280,35,C4_collection,Colecao (50 usuarios completos),GraphQL,3.8189,30062
+281,36,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.6264,554
+282,36,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9119,574
+283,36,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5322,554
+284,36,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.5582,87
+285,36,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.3747,18380
+286,36,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.3562,13238
+287,36,C4_collection,Colecao (50 usuarios completos),REST,1.6231,29943
+288,36,C4_collection,Colecao (50 usuarios completos),GraphQL,4.7119,30062
+289,37,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4401,554
+290,37,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.6977,574
+291,37,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.4991,554
+292,37,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.5205,87
+293,37,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.0922,18380
+294,37,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.8413,13238
+295,37,C4_collection,Colecao (50 usuarios completos),REST,1.7376,29943
+296,37,C4_collection,Colecao (50 usuarios completos),GraphQL,3.9168,30062
+297,38,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.681,554
+298,38,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.8343,574
+299,38,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.6609,554
+300,38,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.1027,87
+301,38,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.3573,18380
+302,38,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.5344,13238
+303,38,C4_collection,Colecao (50 usuarios completos),REST,1.9541,29943
+304,38,C4_collection,Colecao (50 usuarios completos),GraphQL,3.9281,30062
+305,39,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8092,554
+306,39,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9522,574
+307,39,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.9429,554
+308,39,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.8516,87
+309,39,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,13.0456,18380
+310,39,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.635,13238
+311,39,C4_collection,Colecao (50 usuarios completos),REST,1.928,29943
+312,39,C4_collection,Colecao (50 usuarios completos),GraphQL,4.098,30062
+313,40,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8455,554
+314,40,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.199,574
+315,40,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8958,554
+316,40,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7447,87
+317,40,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.9334,18380
+318,40,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.9259,13238
+319,40,C4_collection,Colecao (50 usuarios completos),REST,1.82,29943
+320,40,C4_collection,Colecao (50 usuarios completos),GraphQL,3.7798,30062
+321,41,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.5652,554
+322,41,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.8789,574
+323,41,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4046,554
+324,41,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.6335,87
+325,41,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.6787,18380
+326,41,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.1768,13238
+327,41,C4_collection,Colecao (50 usuarios completos),REST,1.9618,29943
+328,41,C4_collection,Colecao (50 usuarios completos),GraphQL,5.121,30062
+329,42,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.9816,554
+330,42,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.7257,574
+331,42,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2722,554
+332,42,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.0593,87
+333,42,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.2046,18380
+334,42,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.1818,13238
+335,42,C4_collection,Colecao (50 usuarios completos),REST,1.4967,29943
+336,42,C4_collection,Colecao (50 usuarios completos),GraphQL,3.7094,30062
+337,43,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.5185,554
+338,43,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.5181,574
+339,43,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5122,554
+340,43,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.1695,87
+341,43,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.7273,18380
+342,43,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.3188,13238
+343,43,C4_collection,Colecao (50 usuarios completos),REST,1.6271,29943
+344,43,C4_collection,Colecao (50 usuarios completos),GraphQL,3.6744,30062
+345,44,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.4455,554
+346,44,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.2949,574
+347,44,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5787,554
+348,44,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.5031,87
+349,44,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,10.8862,18380
+350,44,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,2.9805,13238
+351,44,C4_collection,Colecao (50 usuarios completos),REST,1.6305,29943
+352,44,C4_collection,Colecao (50 usuarios completos),GraphQL,4.7801,30062
+353,45,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.5111,554
+354,45,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.5261,574
+355,45,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1717,554
+356,45,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.3191,87
+357,45,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,9.9408,18380
+358,45,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.0631,13238
+359,45,C4_collection,Colecao (50 usuarios completos),REST,1.4793,29943
+360,45,C4_collection,Colecao (50 usuarios completos),GraphQL,3.5313,30062
+361,46,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.4974,554
+362,46,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.7127,574
+363,46,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.374,554
+364,46,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.411,87
+365,46,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,9.6097,18380
+366,46,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,2.9219,13238
+367,46,C4_collection,Colecao (50 usuarios completos),REST,1.6439,29943
+368,46,C4_collection,Colecao (50 usuarios completos),GraphQL,3.4934,30062
+369,47,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.4852,554
+370,47,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.5884,574
+371,47,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.3512,554
+372,47,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.5554,87
+373,47,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,10.6165,18380
+374,47,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.4948,13238
+375,47,C4_collection,Colecao (50 usuarios completos),REST,1.7117,29943
+376,47,C4_collection,Colecao (50 usuarios completos),GraphQL,5.1285,30062
+377,48,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.7797,554
+378,48,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9613,574
+379,48,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.358,554
+380,48,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7153,87
+381,48,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,10.9355,18380
+382,48,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.4772,13238
+383,48,C4_collection,Colecao (50 usuarios completos),REST,1.6919,29943
+384,48,C4_collection,Colecao (50 usuarios completos),GraphQL,3.9385,30062
+385,49,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.6972,554
+386,49,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9748,574
+387,49,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.6848,554
+388,49,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.661,87
+389,49,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.3137,18380
+390,49,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.7023,13238
+391,49,C4_collection,Colecao (50 usuarios completos),REST,2.0624,29943
+392,49,C4_collection,Colecao (50 usuarios completos),GraphQL,4.9302,30062
+393,50,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2775,554
+394,50,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.4373,574
+395,50,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.0565,554
+396,50,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.9958,87
+397,50,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,13.2001,18380
+398,50,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.4918,13238
+399,50,C4_collection,Colecao (50 usuarios completos),REST,1.9012,29943
+400,50,C4_collection,Colecao (50 usuarios completos),GraphQL,4.6449,30062
+401,51,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8307,554
+402,51,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9492,574
+403,51,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.9554,554
+404,51,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.5833,87
+405,51,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,14.1358,18380
+406,51,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.5523,13238
+407,51,C4_collection,Colecao (50 usuarios completos),REST,1.9619,29943
+408,51,C4_collection,Colecao (50 usuarios completos),GraphQL,4.0889,30062
+409,52,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.1207,554
+410,52,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.0865,574
+411,52,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5204,554
+412,52,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7456,87
+413,52,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.9012,18380
+414,52,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.6969,13238
+415,52,C4_collection,Colecao (50 usuarios completos),REST,1.9986,29943
+416,52,C4_collection,Colecao (50 usuarios completos),GraphQL,4.0217,30062
+417,53,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8932,554
+418,53,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.0593,574
+419,53,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.9407,554
+420,53,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7824,87
+421,53,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,14.8917,18380
+422,53,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.5467,13238
+423,53,C4_collection,Colecao (50 usuarios completos),REST,1.9564,29943
+424,53,C4_collection,Colecao (50 usuarios completos),GraphQL,4.6415,30062
+425,54,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.0147,554
+426,54,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9951,574
+427,54,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8692,554
+428,54,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.4425,87
+429,54,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,13.0725,18380
+430,54,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.6995,13238
+431,54,C4_collection,Colecao (50 usuarios completos),REST,2.2102,29943
+432,54,C4_collection,Colecao (50 usuarios completos),GraphQL,5.0274,30062
+433,55,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.0146,554
+434,55,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.2606,574
+435,55,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.7726,554
+436,55,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7912,87
+437,55,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.316,18380
+438,55,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.3057,13238
+439,55,C4_collection,Colecao (50 usuarios completos),REST,2.0621,29943
+440,55,C4_collection,Colecao (50 usuarios completos),GraphQL,3.784,30062
+441,56,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8421,554
+442,56,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.0079,574
+443,56,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.7993,554
+444,56,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.8733,87
+445,56,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.6882,18380
+446,56,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.2563,13238
+447,56,C4_collection,Colecao (50 usuarios completos),REST,1.9436,29943
+448,56,C4_collection,Colecao (50 usuarios completos),GraphQL,4.8147,30062
+449,57,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.8036,554
+450,57,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.0586,574
+451,57,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8689,554
+452,57,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.6128,87
+453,57,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.4343,18380
+454,57,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.5069,13238
+455,57,C4_collection,Colecao (50 usuarios completos),REST,1.7376,29943
+456,57,C4_collection,Colecao (50 usuarios completos),GraphQL,3.7738,30062
+457,58,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3559,554
+458,58,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.9622,574
+459,58,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.6603,554
+460,58,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.6447,87
+461,58,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.9277,18380
+462,58,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.8281,13238
+463,58,C4_collection,Colecao (50 usuarios completos),REST,1.9957,29943
+464,58,C4_collection,Colecao (50 usuarios completos),GraphQL,4.2147,30062
+465,59,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.7822,554
+466,59,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.2228,574
+467,59,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.6235,554
+468,59,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.7325,87
+469,59,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,11.8251,18380
+470,59,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.534,13238
+471,59,C4_collection,Colecao (50 usuarios completos),REST,1.8389,29943
+472,59,C4_collection,Colecao (50 usuarios completos),GraphQL,4.8142,30062
+473,60,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.83,554
+474,60,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.7941,574
+475,60,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.546,554
+476,60,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.6865,87
+477,60,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.0418,18380
+478,60,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.2314,13238
+479,60,C4_collection,Colecao (50 usuarios completos),REST,1.9938,29943
+480,60,C4_collection,Colecao (50 usuarios completos),GraphQL,3.8327,30062
+481,61,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.6849,554
+482,61,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.8603,574
+483,61,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5018,554
+484,61,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,2.6557,87
+485,61,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,12.5318,18380
+486,61,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,3.2548,13238
+487,61,C4_collection,Colecao (50 usuarios completos),REST,1.8368,29943
+488,61,C4_collection,Colecao (50 usuarios completos),GraphQL,3.8602,30062
+489,62,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.6658,554
+490,62,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,2.978,574
+491,62,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.5846,554
+492,62,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.3883,87
+493,62,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.7279,18380
+494,62,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.9416,13238
+495,62,C4_collection,Colecao (50 usuarios completos),REST,4.2398,29943
+496,62,C4_collection,Colecao (50 usuarios completos),GraphQL,7.676,30062
+497,63,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5975,554
+498,63,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,15.7703,574
+499,63,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.628,554
+500,63,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7176,87
+501,63,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.6872,18380
+502,63,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.4444,13238
+503,63,C4_collection,Colecao (50 usuarios completos),REST,2.7683,29943
+504,63,C4_collection,Colecao (50 usuarios completos),GraphQL,5.9791,30062
+505,64,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.49,554
+506,64,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3314,574
+507,64,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4562,554
+508,64,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.0555,87
+509,64,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.5011,18380
+510,64,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0181,13238
+511,64,C4_collection,Colecao (50 usuarios completos),REST,2.4,29943
+512,64,C4_collection,Colecao (50 usuarios completos),GraphQL,6.2745,30062
+513,65,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3515,554
+514,65,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2986,574
+515,65,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2323,554
+516,65,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8663,87
+517,65,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.0815,18380
+518,65,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5626,13238
+519,65,C4_collection,Colecao (50 usuarios completos),REST,2.8855,29943
+520,65,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1973,30062
+521,66,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4931,554
+522,66,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,6.263,574
+523,66,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.8555,554
+524,66,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.2447,87
+525,66,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.5059,18380
+526,66,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.4183,13238
+527,66,C4_collection,Colecao (50 usuarios completos),REST,2.6431,29943
+528,66,C4_collection,Colecao (50 usuarios completos),GraphQL,5.9976,30062
+529,67,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3517,554
+530,67,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.5954,574
+531,67,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5104,554
+532,67,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.315,87
+533,67,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.0536,18380
+534,67,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.5904,13238
+535,67,C4_collection,Colecao (50 usuarios completos),REST,2.6286,29943
+536,67,C4_collection,Colecao (50 usuarios completos),GraphQL,5.7337,30062
+537,68,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.7314,554
+538,68,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4649,574
+539,68,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3985,554
+540,68,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6894,87
+541,68,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.412,18380
+542,68,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.9173,13238
+543,68,C4_collection,Colecao (50 usuarios completos),REST,2.9157,29943
+544,68,C4_collection,Colecao (50 usuarios completos),GraphQL,6.8069,30062
+545,69,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3204,554
+546,69,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2148,574
+547,69,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2149,554
+548,69,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.967,87
+549,69,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.4805,18380
+550,69,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1258,13238
+551,69,C4_collection,Colecao (50 usuarios completos),REST,2.6343,29943
+552,69,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1021,30062
+553,70,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6045,554
+554,70,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.8551,574
+555,70,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.757,554
+556,70,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.5092,87
+557,70,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.9717,18380
+558,70,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.9584,13238
+559,70,C4_collection,Colecao (50 usuarios completos),REST,2.4547,29943
+560,70,C4_collection,Colecao (50 usuarios completos),GraphQL,5.7084,30062
+561,71,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4401,554
+562,71,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.982,574
+563,71,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.9818,554
+564,71,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.4677,87
+565,71,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,14.6378,18380
+566,71,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.3803,13238
+567,71,C4_collection,Colecao (50 usuarios completos),REST,2.3553,29943
+568,71,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8535,30062
+569,72,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.1572,554
+570,72,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.6081,574
+571,72,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.0355,554
+572,72,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.2632,87
+573,72,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,14.8683,18380
+574,72,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.4766,13238
+575,72,C4_collection,Colecao (50 usuarios completos),REST,2.6162,29943
+576,72,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0774,30062
+577,73,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3904,554
+578,73,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.7912,574
+579,73,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.209,554
+580,73,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.2573,87
+581,73,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.5023,18380
+582,73,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.3564,13238
+583,73,C4_collection,Colecao (50 usuarios completos),REST,2.3271,29943
+584,73,C4_collection,Colecao (50 usuarios completos),GraphQL,5.847,30062
+585,74,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4621,554
+586,74,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.0636,574
+587,74,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.0741,554
+588,74,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7184,87
+589,74,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.4305,18380
+590,74,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.7766,13238
+591,74,C4_collection,Colecao (50 usuarios completos),REST,2.2049,29943
+592,74,C4_collection,Colecao (50 usuarios completos),GraphQL,5.786,30062
+593,75,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3061,554
+594,75,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4325,574
+595,75,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.119,554
+596,75,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.4232,87
+597,75,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.3099,18380
+598,75,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1439,13238
+599,75,C4_collection,Colecao (50 usuarios completos),REST,2.9622,29943
+600,75,C4_collection,Colecao (50 usuarios completos),GraphQL,6.7634,30062
+601,76,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.7597,554
+602,76,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.117,574
+603,76,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2395,554
+604,76,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6285,87
+605,76,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.1692,18380
+606,76,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1473,13238
+607,76,C4_collection,Colecao (50 usuarios completos),REST,2.497,29943
+608,76,C4_collection,Colecao (50 usuarios completos),GraphQL,5.9122,30062
+609,77,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3287,554
+610,77,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.1543,574
+611,77,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.8405,554
+612,77,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.5641,87
+613,77,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.8832,18380
+614,77,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1925,13238
+615,77,C4_collection,Colecao (50 usuarios completos),REST,2.5124,29943
+616,77,C4_collection,Colecao (50 usuarios completos),GraphQL,5.6128,30062
+617,78,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2665,554
+618,78,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.0142,574
+619,78,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1762,554
+620,78,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6176,87
+621,78,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.1659,18380
+622,78,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6953,13238
+623,78,C4_collection,Colecao (50 usuarios completos),REST,2.8438,29943
+624,78,C4_collection,Colecao (50 usuarios completos),GraphQL,7.463,30062
+625,79,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3444,554
+626,79,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2368,574
+627,79,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2326,554
+628,79,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.0454,87
+629,79,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.7486,18380
+630,79,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5238,13238
+631,79,C4_collection,Colecao (50 usuarios completos),REST,2.4869,29943
+632,79,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8954,30062
+633,80,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.306,554
+634,80,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.6977,574
+635,80,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2862,554
+636,80,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6242,87
+637,80,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.6492,18380
+638,80,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.423,13238
+639,80,C4_collection,Colecao (50 usuarios completos),REST,2.7497,29943
+640,80,C4_collection,Colecao (50 usuarios completos),GraphQL,6.9274,30062
+641,81,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3081,554
+642,81,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.8828,574
+643,81,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.193,554
+644,81,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.0056,87
+645,81,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.646,18380
+646,81,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.148,13238
+647,81,C4_collection,Colecao (50 usuarios completos),REST,2.758,29943
+648,81,C4_collection,Colecao (50 usuarios completos),GraphQL,7.4952,30062
+649,82,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6855,554
+650,82,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3002,574
+651,82,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2961,554
+652,82,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7049,87
+653,82,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.6139,18380
+654,82,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.16,13238
+655,82,C4_collection,Colecao (50 usuarios completos),REST,3.3838,29943
+656,82,C4_collection,Colecao (50 usuarios completos),GraphQL,6.9657,30062
+657,83,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.74,554
+658,83,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.155,574
+659,83,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.8533,554
+660,83,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.6287,87
+661,83,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,24.351,18380
+662,83,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.1095,13238
+663,83,C4_collection,Colecao (50 usuarios completos),REST,2.9268,29943
+664,83,C4_collection,Colecao (50 usuarios completos),GraphQL,6.5891,30062
+665,84,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4632,554
+666,84,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.1212,574
+667,84,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,3.1615,554
+668,84,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.4694,87
+669,84,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.38,18380
+670,84,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.2558,13238
+671,84,C4_collection,Colecao (50 usuarios completos),REST,3.2343,29943
+672,84,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0069,30062
+673,85,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3377,554
+674,85,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.909,574
+675,85,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4156,554
+676,85,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7164,87
+677,85,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.3297,18380
+678,85,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6858,13238
+679,85,C4_collection,Colecao (50 usuarios completos),REST,2.4143,29943
+680,85,C4_collection,Colecao (50 usuarios completos),GraphQL,5.637,30062
+681,86,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2632,554
+682,86,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.0864,574
+683,86,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4702,554
+684,86,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.4035,87
+685,86,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.1404,18380
+686,86,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0849,13238
+687,86,C4_collection,Colecao (50 usuarios completos),REST,2.8376,29943
+688,86,C4_collection,Colecao (50 usuarios completos),GraphQL,6.2694,30062
+689,87,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.8249,554
+690,87,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.8189,574
+691,87,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,3.0051,554
+692,87,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7949,87
+693,87,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.7716,18380
+694,87,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1511,13238
+695,87,C4_collection,Colecao (50 usuarios completos),REST,2.8216,29943
+696,87,C4_collection,Colecao (50 usuarios completos),GraphQL,6.277,30062
+697,88,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.8119,554
+698,88,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.9829,574
+699,88,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.334,554
+700,88,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6533,87
+701,88,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.1161,18380
+702,88,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0023,13238
+703,88,C4_collection,Colecao (50 usuarios completos),REST,2.4137,29943
+704,88,C4_collection,Colecao (50 usuarios completos),GraphQL,5.4361,30062
+705,89,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.1409,554
+706,89,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.0542,574
+707,89,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3921,554
+708,89,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8423,87
+709,89,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.0429,18380
+710,89,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.2242,13238
+711,89,C4_collection,Colecao (50 usuarios completos),REST,2.7057,29943
+712,89,C4_collection,Colecao (50 usuarios completos),GraphQL,6.3677,30062
+713,90,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.7113,554
+714,90,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3019,574
+715,90,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.396,554
+716,90,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6573,87
+717,90,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.4818,18380
+718,90,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6528,13238
+719,90,C4_collection,Colecao (50 usuarios completos),REST,3.4831,29943
+720,90,C4_collection,Colecao (50 usuarios completos),GraphQL,5.7868,30062
+721,91,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2395,554
+722,91,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.199,574
+723,91,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1614,554
+724,91,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,5.523,87
+725,91,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.8783,18380
+726,91,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6063,13238
+727,91,C4_collection,Colecao (50 usuarios completos),REST,2.659,29943
+728,91,C4_collection,Colecao (50 usuarios completos),GraphQL,6.3063,30062
+729,92,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6638,554
+730,92,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3081,574
+731,92,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5168,554
+732,92,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.095,87
+733,92,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.3703,18380
+734,92,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.7594,13238
+735,92,C4_collection,Colecao (50 usuarios completos),REST,2.8619,29943
+736,92,C4_collection,Colecao (50 usuarios completos),GraphQL,7.1601,30062
+737,93,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6655,554
+738,93,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4183,574
+739,93,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2039,554
+740,93,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.4788,87
+741,93,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.5549,18380
+742,93,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.335,13238
+743,93,C4_collection,Colecao (50 usuarios completos),REST,2.8086,29943
+744,93,C4_collection,Colecao (50 usuarios completos),GraphQL,6.003,30062
+745,94,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2205,554
+746,94,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2139,574
+747,94,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2611,554
+748,94,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1596,87
+749,94,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.9163,18380
+750,94,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,7.2797,13238
+751,94,C4_collection,Colecao (50 usuarios completos),REST,2.7936,29943
+752,94,C4_collection,Colecao (50 usuarios completos),GraphQL,6.2359,30062
+753,95,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3801,554
+754,95,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2665,574
+755,95,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1712,554
+756,95,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6634,87
+757,95,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.3268,18380
+758,95,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.3328,13238
+759,95,C4_collection,Colecao (50 usuarios completos),REST,3.28,29943
+760,95,C4_collection,Colecao (50 usuarios completos),GraphQL,6.2162,30062
+761,96,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5987,554
+762,96,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4173,574
+763,96,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.493,554
+764,96,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.3476,87
+765,96,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.0335,18380
+766,96,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1837,13238
+767,96,C4_collection,Colecao (50 usuarios completos),REST,3.2262,29943
+768,96,C4_collection,Colecao (50 usuarios completos),GraphQL,6.5154,30062
+769,97,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.136,554
+770,97,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.1473,574
+771,97,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.0941,554
+772,97,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6983,87
+773,97,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.5455,18380
+774,97,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0084,13238
+775,97,C4_collection,Colecao (50 usuarios completos),REST,2.6137,29943
+776,97,C4_collection,Colecao (50 usuarios completos),GraphQL,7.9081,30062
+777,98,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5463,554
+778,98,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.5468,574
+779,98,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3297,554
+780,98,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7681,87
+781,98,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.2298,18380
+782,98,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.8839,13238
+783,98,C4_collection,Colecao (50 usuarios completos),REST,2.4859,29943
+784,98,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0736,30062
+785,99,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6081,554
+786,99,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3852,574
+787,99,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4561,554
+788,99,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8585,87
+789,99,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.3771,18380
+790,99,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1458,13238
+791,99,C4_collection,Colecao (50 usuarios completos),REST,2.4069,29943
+792,99,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0322,30062
+793,100,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.0631,554
+794,100,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.0547,574
+795,100,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.8642,554
+796,100,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.7545,87
+797,100,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.7089,18380
+798,100,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6936,13238
+799,100,C4_collection,Colecao (50 usuarios completos),REST,2.6495,29943
+800,100,C4_collection,Colecao (50 usuarios completos),GraphQL,7.4449,30062
+801,101,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4791,554
+802,101,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.5958,574
+803,101,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.8593,554
+804,101,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1201,87
+805,101,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.5082,18380
+806,101,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.2405,13238
+807,101,C4_collection,Colecao (50 usuarios completos),REST,2.729,29943
+808,101,C4_collection,Colecao (50 usuarios completos),GraphQL,6.9043,30062
+809,102,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3253,554
+810,102,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2603,574
+811,102,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1081,554
+812,102,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8348,87
+813,102,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.3733,18380
+814,102,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0607,13238
+815,102,C4_collection,Colecao (50 usuarios completos),REST,3.2669,29943
+816,102,C4_collection,Colecao (50 usuarios completos),GraphQL,5.7092,30062
+817,103,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.1984,554
+818,103,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.9781,574
+819,103,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1934,554
+820,103,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.9773,87
+821,103,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.4187,18380
+822,103,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.7612,13238
+823,103,C4_collection,Colecao (50 usuarios completos),REST,2.686,29943
+824,103,C4_collection,Colecao (50 usuarios completos),GraphQL,7.7723,30062
+825,104,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3478,554
+826,104,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4366,574
+827,104,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.339,554
+828,104,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.9582,87
+829,104,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.7674,18380
+830,104,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.8319,13238
+831,104,C4_collection,Colecao (50 usuarios completos),REST,2.7211,29943
+832,104,C4_collection,Colecao (50 usuarios completos),GraphQL,6.3642,30062
+833,105,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6991,554
+834,105,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.5055,574
+835,105,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.7841,554
+836,105,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1117,87
+837,105,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.7841,18380
+838,105,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6264,13238
+839,105,C4_collection,Colecao (50 usuarios completos),REST,2.5677,29943
+840,105,C4_collection,Colecao (50 usuarios completos),GraphQL,6.815,30062
+841,106,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.217,554
+842,106,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4634,574
+843,106,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.8056,554
+844,106,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.2688,87
+845,106,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.2444,18380
+846,106,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.4291,13238
+847,106,C4_collection,Colecao (50 usuarios completos),REST,2.846,29943
+848,106,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0934,30062
+849,107,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2916,554
+850,107,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.3238,574
+851,107,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4279,554
+852,107,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7405,87
+853,107,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.915,18380
+854,107,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.2049,13238
+855,107,C4_collection,Colecao (50 usuarios completos),REST,2.6855,29943
+856,107,C4_collection,Colecao (50 usuarios completos),GraphQL,6.5488,30062
+857,108,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2668,554
+858,108,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3147,574
+859,108,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5592,554
+860,108,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.6173,87
+861,108,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.6935,18380
+862,108,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5963,13238
+863,108,C4_collection,Colecao (50 usuarios completos),REST,2.6219,29943
+864,108,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0503,30062
+865,109,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5167,554
+866,109,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4354,574
+867,109,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.6158,554
+868,109,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7728,87
+869,109,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.5318,18380
+870,109,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.7967,13238
+871,109,C4_collection,Colecao (50 usuarios completos),REST,2.7267,29943
+872,109,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0236,30062
+873,110,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4827,554
+874,110,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,6.2042,574
+875,110,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5924,554
+876,110,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7976,87
+877,110,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.3484,18380
+878,110,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.0249,13238
+879,110,C4_collection,Colecao (50 usuarios completos),REST,3.3956,29943
+880,110,C4_collection,Colecao (50 usuarios completos),GraphQL,6.2771,30062
+881,111,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.7179,554
+882,111,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.8188,574
+883,111,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4063,554
+884,111,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.3443,87
+885,111,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.0687,18380
+886,111,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.1443,13238
+887,111,C4_collection,Colecao (50 usuarios completos),REST,2.6383,29943
+888,111,C4_collection,Colecao (50 usuarios completos),GraphQL,6.91,30062
+889,112,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3411,554
+890,112,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.673,574
+891,112,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5425,554
+892,112,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.2183,87
+893,112,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.1713,18380
+894,112,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5323,13238
+895,112,C4_collection,Colecao (50 usuarios completos),REST,2.5715,29943
+896,112,C4_collection,Colecao (50 usuarios completos),GraphQL,5.9616,30062
+897,113,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4682,554
+898,113,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4756,574
+899,113,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5354,554
+900,113,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,5.3733,87
+901,113,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.1252,18380
+902,113,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1236,13238
+903,113,C4_collection,Colecao (50 usuarios completos),REST,2.6325,29943
+904,113,C4_collection,Colecao (50 usuarios completos),GraphQL,6.7204,30062
+905,114,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.1685,554
+906,114,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.8748,574
+907,114,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.9726,554
+908,114,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.2248,87
+909,114,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.626,18380
+910,114,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6828,13238
+911,114,C4_collection,Colecao (50 usuarios completos),REST,2.4939,29943
+912,114,C4_collection,Colecao (50 usuarios completos),GraphQL,6.094,30062
+913,115,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6834,554
+914,115,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.7111,574
+915,115,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.0877,554
+916,115,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.4152,87
+917,115,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.4624,18380
+918,115,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1067,13238
+919,115,C4_collection,Colecao (50 usuarios completos),REST,2.7703,29943
+920,115,C4_collection,Colecao (50 usuarios completos),GraphQL,5.6703,30062
+921,116,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.0972,554
+922,116,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3527,574
+923,116,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.9115,554
+924,116,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.835,87
+925,116,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.1791,18380
+926,116,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,7.0339,13238
+927,116,C4_collection,Colecao (50 usuarios completos),REST,2.4386,29943
+928,116,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8962,30062
+929,117,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.3031,554
+930,117,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4362,574
+931,117,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5234,554
+932,117,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7727,87
+933,117,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.4157,18380
+934,117,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.4769,13238
+935,117,C4_collection,Colecao (50 usuarios completos),REST,3.5363,29943
+936,117,C4_collection,Colecao (50 usuarios completos),GraphQL,6.5785,30062
+937,118,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4305,554
+938,118,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.1007,574
+939,118,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2966,554
+940,118,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.6994,87
+941,118,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.8623,18380
+942,118,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.3836,13238
+943,118,C4_collection,Colecao (50 usuarios completos),REST,2.5597,29943
+944,118,C4_collection,Colecao (50 usuarios completos),GraphQL,7.1654,30062
+945,119,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.819,554
+946,119,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.6047,574
+947,119,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5517,554
+948,119,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1954,87
+949,119,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.6789,18380
+950,119,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,7.532,13238
+951,119,C4_collection,Colecao (50 usuarios completos),REST,4.4855,29943
+952,119,C4_collection,Colecao (50 usuarios completos),GraphQL,14.3132,30062
+953,120,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.2974,554
+954,120,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,6.0347,574
+955,120,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,3.3531,554
+956,120,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,5.021,87
+957,120,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.1617,18380
+958,120,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.2975,13238
+959,120,C4_collection,Colecao (50 usuarios completos),REST,3.39,29943
+960,120,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1431,30062
+961,121,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3483,554
+962,121,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.1983,574
+963,121,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2163,554
+964,121,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.9106,87
+965,121,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.2683,18380
+966,121,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.9238,13238
+967,121,C4_collection,Colecao (50 usuarios completos),REST,2.7646,29943
+968,121,C4_collection,Colecao (50 usuarios completos),GraphQL,7.011,30062
+969,122,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.0984,554
+970,122,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.8201,574
+971,122,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4472,554
+972,122,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.6797,87
+973,122,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.9265,18380
+974,122,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5587,13238
+975,122,C4_collection,Colecao (50 usuarios completos),REST,2.8915,29943
+976,122,C4_collection,Colecao (50 usuarios completos),GraphQL,7.0397,30062
+977,123,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4682,554
+978,123,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,6.1385,574
+979,123,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4639,554
+980,123,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1021,87
+981,123,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.5219,18380
+982,123,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.2667,13238
+983,123,C4_collection,Colecao (50 usuarios completos),REST,2.7909,29943
+984,123,C4_collection,Colecao (50 usuarios completos),GraphQL,6.839,30062
+985,124,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4625,554
+986,124,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3962,574
+987,124,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.7009,554
+988,124,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1581,87
+989,124,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.7899,18380
+990,124,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.2017,13238
+991,124,C4_collection,Colecao (50 usuarios completos),REST,2.9513,29943
+992,124,C4_collection,Colecao (50 usuarios completos),GraphQL,7.4751,30062
+993,125,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5342,554
+994,125,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.003,574
+995,125,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2342,554
+996,125,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.83,87
+997,125,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.68,18380
+998,125,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.0583,13238
+999,125,C4_collection,Colecao (50 usuarios completos),REST,3.4554,29943
+1000,125,C4_collection,Colecao (50 usuarios completos),GraphQL,6.2532,30062
+1001,126,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3448,554
+1002,126,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.9042,574
+1003,126,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,3.5921,554
+1004,126,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.0543,87
+1005,126,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,30.9567,18380
+1006,126,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.588,13238
+1007,126,C4_collection,Colecao (50 usuarios completos),REST,2.7629,29943
+1008,126,C4_collection,Colecao (50 usuarios completos),GraphQL,7.3459,30062
+1009,127,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.0447,554
+1010,127,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.9891,574
+1011,127,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,3.2901,554
+1012,127,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.4633,87
+1013,127,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,22.2756,18380
+1014,127,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.7909,13238
+1015,127,C4_collection,Colecao (50 usuarios completos),REST,3.138,29943
+1016,127,C4_collection,Colecao (50 usuarios completos),GraphQL,7.2452,30062
+1017,128,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.9783,554
+1018,128,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,6.1353,574
+1019,128,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.9791,554
+1020,128,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,5.1364,87
+1021,128,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.4369,18380
+1022,128,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.365,13238
+1023,128,C4_collection,Colecao (50 usuarios completos),REST,2.903,29943
+1024,128,C4_collection,Colecao (50 usuarios completos),GraphQL,6.8394,30062
+1025,129,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.9724,554
+1026,129,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.0177,574
+1027,129,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.7884,554
+1028,129,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,6.0737,87
+1029,129,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.4387,18380
+1030,129,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6521,13238
+1031,129,C4_collection,Colecao (50 usuarios completos),REST,2.838,29943
+1032,129,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0845,30062
+1033,130,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6449,554
+1034,130,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.7278,574
+1035,130,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5886,554
+1036,130,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.4368,87
+1037,130,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,19.2242,18380
+1038,130,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.739,13238
+1039,130,C4_collection,Colecao (50 usuarios completos),REST,3.685,29943
+1040,130,C4_collection,Colecao (50 usuarios completos),GraphQL,6.2748,30062
+1041,131,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6716,554
+1042,131,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.9315,574
+1043,131,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.401,554
+1044,131,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.0526,87
+1045,131,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.686,18380
+1046,131,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.2893,13238
+1047,131,C4_collection,Colecao (50 usuarios completos),REST,2.9307,29943
+1048,131,C4_collection,Colecao (50 usuarios completos),GraphQL,6.7253,30062
+1049,132,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.7705,554
+1050,132,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.959,574
+1051,132,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.7624,554
+1052,132,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.8378,87
+1053,132,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.6752,18380
+1054,132,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,7.7716,13238
+1055,132,C4_collection,Colecao (50 usuarios completos),REST,2.8144,29943
+1056,132,C4_collection,Colecao (50 usuarios completos),GraphQL,6.3268,30062
+1057,133,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5602,554
+1058,133,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.8768,574
+1059,133,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.9436,554
+1060,133,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.5574,87
+1061,133,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.1478,18380
+1062,133,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.8401,13238
+1063,133,C4_collection,Colecao (50 usuarios completos),REST,2.6523,29943
+1064,133,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1997,30062
+1065,134,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4971,554
+1066,134,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.657,574
+1067,134,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.6894,554
+1068,134,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.5548,87
+1069,134,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,22.0319,18380
+1070,134,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.4115,13238
+1071,134,C4_collection,Colecao (50 usuarios completos),REST,2.5484,29943
+1072,134,C4_collection,Colecao (50 usuarios completos),GraphQL,6.6015,30062
+1073,135,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6472,554
+1074,135,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4459,574
+1075,135,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4102,554
+1076,135,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1228,87
+1077,135,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.6985,18380
+1078,135,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.9482,13238
+1079,135,C4_collection,Colecao (50 usuarios completos),REST,2.665,29943
+1080,135,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1868,30062
+1081,136,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3783,554
+1082,136,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.5317,574
+1083,136,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,3.0155,554
+1084,136,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.5717,87
+1085,136,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.8626,18380
+1086,136,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5878,13238
+1087,136,C4_collection,Colecao (50 usuarios completos),REST,2.7375,29943
+1088,136,C4_collection,Colecao (50 usuarios completos),GraphQL,6.2335,30062
+1089,137,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5672,554
+1090,137,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.1603,574
+1091,137,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1552,554
+1092,137,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.5123,87
+1093,137,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.9558,18380
+1094,137,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.4777,13238
+1095,137,C4_collection,Colecao (50 usuarios completos),REST,2.8561,29943
+1096,137,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0564,30062
+1097,138,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3759,554
+1098,138,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.1942,574
+1099,138,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2407,554
+1100,138,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.9872,87
+1101,138,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.2112,18380
+1102,138,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0033,13238
+1103,138,C4_collection,Colecao (50 usuarios completos),REST,2.3327,29943
+1104,138,C4_collection,Colecao (50 usuarios completos),GraphQL,7.3711,30062
+1105,139,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4549,554
+1106,139,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3306,574
+1107,139,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.162,554
+1108,139,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.5407,87
+1109,139,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.5471,18380
+1110,139,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.4339,13238
+1111,139,C4_collection,Colecao (50 usuarios completos),REST,2.9619,29943
+1112,139,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8869,30062
+1113,140,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5301,554
+1114,140,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,3.9831,574
+1115,140,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,3.292,554
+1116,140,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7793,87
+1117,140,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.1771,18380
+1118,140,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.0741,13238
+1119,140,C4_collection,Colecao (50 usuarios completos),REST,2.332,29943
+1120,140,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8543,30062
+1121,141,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.0995,554
+1122,141,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.0286,574
+1123,141,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1022,554
+1124,141,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.4004,87
+1125,141,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,14.4173,18380
+1126,141,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1705,13238
+1127,141,C4_collection,Colecao (50 usuarios completos),REST,2.7938,29943
+1128,141,C4_collection,Colecao (50 usuarios completos),GraphQL,8.0869,30062
+1129,142,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4321,554
+1130,142,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.139,574
+1131,142,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5962,554
+1132,142,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.063,87
+1133,142,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.2502,18380
+1134,142,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.9855,13238
+1135,142,C4_collection,Colecao (50 usuarios completos),REST,2.4645,29943
+1136,142,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1287,30062
+1137,143,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5419,554
+1138,143,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.7708,574
+1139,143,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.7079,554
+1140,143,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.197,87
+1141,143,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,19.1727,18380
+1142,143,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.4861,13238
+1143,143,C4_collection,Colecao (50 usuarios completos),REST,2.6718,29943
+1144,143,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0882,30062
+1145,144,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.018,554
+1146,144,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4287,574
+1147,144,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4222,554
+1148,144,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.3421,87
+1149,144,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.6553,18380
+1150,144,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.938,13238
+1151,144,C4_collection,Colecao (50 usuarios completos),REST,2.7426,29943
+1152,144,C4_collection,Colecao (50 usuarios completos),GraphQL,7.3032,30062
+1153,145,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6722,554
+1154,145,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4335,574
+1155,145,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.635,554
+1156,145,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.9551,87
+1157,145,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.8721,18380
+1158,145,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5483,13238
+1159,145,C4_collection,Colecao (50 usuarios completos),REST,2.7096,29943
+1160,145,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0421,30062
+1161,146,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.2692,554
+1162,146,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3645,574
+1163,146,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2178,554
+1164,146,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7788,87
+1165,146,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.5192,18380
+1166,146,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.4363,13238
+1167,146,C4_collection,Colecao (50 usuarios completos),REST,2.9144,29943
+1168,146,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0654,30062
+1169,147,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2329,554
+1170,147,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3938,574
+1171,147,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4216,554
+1172,147,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1863,87
+1173,147,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.027,18380
+1174,147,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.7581,13238
+1175,147,C4_collection,Colecao (50 usuarios completos),REST,2.665,29943
+1176,147,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1307,30062
+1177,148,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.014,554
+1178,148,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.1679,574
+1179,148,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2609,554
+1180,148,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.0199,87
+1181,148,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.709,18380
+1182,148,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0816,13238
+1183,148,C4_collection,Colecao (50 usuarios completos),REST,2.3541,29943
+1184,148,C4_collection,Colecao (50 usuarios completos),GraphQL,5.9559,30062
+1185,149,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2334,554
+1186,149,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.0246,574
+1187,149,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.7476,554
+1188,149,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1184,87
+1189,149,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.1637,18380
+1190,149,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.9871,13238
+1191,149,C4_collection,Colecao (50 usuarios completos),REST,2.6699,29943
+1192,149,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8551,30062
+1193,150,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6167,554
+1194,150,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.7473,574
+1195,150,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.7192,554
+1196,150,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.7524,87
+1197,150,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.1135,18380
+1198,150,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.318,13238
+1199,150,C4_collection,Colecao (50 usuarios completos),REST,2.844,29943
+1200,150,C4_collection,Colecao (50 usuarios completos),GraphQL,6.8921,30062
+1201,151,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4144,554
+1202,151,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.7787,574
+1203,151,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2966,554
+1204,151,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.002,87
+1205,151,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.0939,18380
+1206,151,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6112,13238
+1207,151,C4_collection,Colecao (50 usuarios completos),REST,2.8376,29943
+1208,151,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1549,30062
+1209,152,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6198,554
+1210,152,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2313,574
+1211,152,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.428,554
+1212,152,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.214,87
+1213,152,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.0347,18380
+1214,152,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.3063,13238
+1215,152,C4_collection,Colecao (50 usuarios completos),REST,2.8296,29943
+1216,152,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8236,30062
+1217,153,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2767,554
+1218,153,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.1388,574
+1219,153,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.0977,554
+1220,153,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8763,87
+1221,153,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.4861,18380
+1222,153,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.406,13238
+1223,153,C4_collection,Colecao (50 usuarios completos),REST,2.957,29943
+1224,153,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1209,30062
+1225,154,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.419,554
+1226,154,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3277,574
+1227,154,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.8294,554
+1228,154,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,5.3768,87
+1229,154,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.6201,18380
+1230,154,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5017,13238
+1231,154,C4_collection,Colecao (50 usuarios completos),REST,3.2526,29943
+1232,154,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8994,30062
+1233,155,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3929,554
+1234,155,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.5444,574
+1235,155,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.6919,554
+1236,155,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1375,87
+1237,155,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.4794,18380
+1238,155,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1933,13238
+1239,155,C4_collection,Colecao (50 usuarios completos),REST,2.8125,29943
+1240,155,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1932,30062
+1241,156,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3357,554
+1242,156,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2159,574
+1243,156,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2156,554
+1244,156,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1654,87
+1245,156,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.5514,18380
+1246,156,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.3762,13238
+1247,156,C4_collection,Colecao (50 usuarios completos),REST,2.8328,29943
+1248,156,C4_collection,Colecao (50 usuarios completos),GraphQL,6.5741,30062
+1249,157,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2909,554
+1250,157,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.1817,574
+1251,157,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.0282,554
+1252,157,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.6311,87
+1253,157,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.5959,18380
+1254,157,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0742,13238
+1255,157,C4_collection,Colecao (50 usuarios completos),REST,2.387,29943
+1256,157,C4_collection,Colecao (50 usuarios completos),GraphQL,5.647,30062
+1257,158,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2854,554
+1258,158,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.7158,574
+1259,158,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.661,554
+1260,158,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.0859,87
+1261,158,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.8828,18380
+1262,158,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,4.7927,13238
+1263,158,C4_collection,Colecao (50 usuarios completos),REST,2.1616,29943
+1264,158,C4_collection,Colecao (50 usuarios completos),GraphQL,5.9458,30062
+1265,159,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.2413,554
+1266,159,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.1176,574
+1267,159,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.8699,554
+1268,159,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.693,87
+1269,159,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,14.6756,18380
+1270,159,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.2968,13238
+1271,159,C4_collection,Colecao (50 usuarios completos),REST,2.4517,29943
+1272,159,C4_collection,Colecao (50 usuarios completos),GraphQL,5.6572,30062
+1273,160,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3711,554
+1274,160,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.6571,574
+1275,160,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.0044,554
+1276,160,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6461,87
+1277,160,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.3997,18380
+1278,160,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,7.7208,13238
+1279,160,C4_collection,Colecao (50 usuarios completos),REST,2.8046,29943
+1280,160,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8919,30062
+1281,161,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5283,554
+1282,161,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.1117,574
+1283,161,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2559,554
+1284,161,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7997,87
+1285,161,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.6249,18380
+1286,161,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5077,13238
+1287,161,C4_collection,Colecao (50 usuarios completos),REST,2.6388,29943
+1288,161,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0494,30062
+1289,162,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.1457,554
+1290,162,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.8077,574
+1291,162,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2124,554
+1292,162,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8361,87
+1293,162,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.3698,18380
+1294,162,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1546,13238
+1295,162,C4_collection,Colecao (50 usuarios completos),REST,2.3443,29943
+1296,162,C4_collection,Colecao (50 usuarios completos),GraphQL,5.851,30062
+1297,163,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,1.9864,554
+1298,163,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2241,574
+1299,163,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3914,554
+1300,163,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6657,87
+1301,163,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,14.194,18380
+1302,163,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1913,13238
+1303,163,C4_collection,Colecao (50 usuarios completos),REST,2.651,29943
+1304,163,C4_collection,Colecao (50 usuarios completos),GraphQL,7.5533,30062
+1305,164,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2081,554
+1306,164,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2006,574
+1307,164,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1032,554
+1308,164,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6759,87
+1309,164,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.151,18380
+1310,164,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.3649,13238
+1311,164,C4_collection,Colecao (50 usuarios completos),REST,2.7653,29943
+1312,164,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0649,30062
+1313,165,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2751,554
+1314,165,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.0418,574
+1315,165,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3293,554
+1316,165,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.9769,87
+1317,165,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.824,18380
+1318,165,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1718,13238
+1319,165,C4_collection,Colecao (50 usuarios completos),REST,2.6799,29943
+1320,165,C4_collection,Colecao (50 usuarios completos),GraphQL,6.5087,30062
+1321,166,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.8365,554
+1322,166,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3918,574
+1323,166,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.9799,554
+1324,166,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8485,87
+1325,166,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.9145,18380
+1326,166,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.7317,13238
+1327,166,C4_collection,Colecao (50 usuarios completos),REST,2.6625,29943
+1328,166,C4_collection,Colecao (50 usuarios completos),GraphQL,6.257,30062
+1329,167,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6007,554
+1330,167,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.3481,574
+1331,167,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2299,554
+1332,167,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.2701,87
+1333,167,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.7516,18380
+1334,167,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.3593,13238
+1335,167,C4_collection,Colecao (50 usuarios completos),REST,2.6961,29943
+1336,167,C4_collection,Colecao (50 usuarios completos),GraphQL,6.8368,30062
+1337,168,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5364,554
+1338,168,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.7732,574
+1339,168,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1463,554
+1340,168,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6755,87
+1341,168,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.9542,18380
+1342,168,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1241,13238
+1343,168,C4_collection,Colecao (50 usuarios completos),REST,2.6442,29943
+1344,168,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1764,30062
+1345,169,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4063,554
+1346,169,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3469,574
+1347,169,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2294,554
+1348,169,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7989,87
+1349,169,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.3616,18380
+1350,169,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.1725,13238
+1351,169,C4_collection,Colecao (50 usuarios completos),REST,3.302,29943
+1352,169,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8229,30062
+1353,170,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2537,554
+1354,170,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.8783,574
+1355,170,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.6234,554
+1356,170,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8182,87
+1357,170,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.9222,18380
+1358,170,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.7442,13238
+1359,170,C4_collection,Colecao (50 usuarios completos),REST,2.6053,29943
+1360,170,C4_collection,Colecao (50 usuarios completos),GraphQL,5.7523,30062
+1361,171,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.1519,554
+1362,171,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.6216,574
+1363,171,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1419,554
+1364,171,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7008,87
+1365,171,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.8996,18380
+1366,171,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5345,13238
+1367,171,C4_collection,Colecao (50 usuarios completos),REST,2.7726,29943
+1368,171,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0083,30062
+1369,172,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4417,554
+1370,172,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3607,574
+1371,172,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4959,554
+1372,172,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.4961,87
+1373,172,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.1061,18380
+1374,172,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.4351,13238
+1375,172,C4_collection,Colecao (50 usuarios completos),REST,2.7095,29943
+1376,172,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8161,30062
+1377,173,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2638,554
+1378,173,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3417,574
+1379,173,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.6192,554
+1380,173,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,6.082,87
+1381,173,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.6937,18380
+1382,173,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.4442,13238
+1383,173,C4_collection,Colecao (50 usuarios completos),REST,2.6061,29943
+1384,173,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8479,30062
+1385,174,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5269,554
+1386,174,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.319,574
+1387,174,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.4054,554
+1388,174,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7987,87
+1389,174,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.4931,18380
+1390,174,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.7468,13238
+1391,174,C4_collection,Colecao (50 usuarios completos),REST,2.8156,29943
+1392,174,C4_collection,Colecao (50 usuarios completos),GraphQL,6.6846,30062
+1393,175,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5968,554
+1394,175,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.5215,574
+1395,175,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3457,554
+1396,175,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.719,87
+1397,175,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.414,18380
+1398,175,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6446,13238
+1399,175,C4_collection,Colecao (50 usuarios completos),REST,2.6938,29943
+1400,175,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0884,30062
+1401,176,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6769,554
+1402,176,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.6305,574
+1403,176,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.6079,554
+1404,176,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7018,87
+1405,176,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.7013,18380
+1406,176,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.3888,13238
+1407,176,C4_collection,Colecao (50 usuarios completos),REST,2.7502,29943
+1408,176,C4_collection,Colecao (50 usuarios completos),GraphQL,6.5883,30062
+1409,177,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5949,554
+1410,177,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3961,574
+1411,177,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1732,554
+1412,177,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7357,87
+1413,177,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.3353,18380
+1414,177,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5332,13238
+1415,177,C4_collection,Colecao (50 usuarios completos),REST,3.0249,29943
+1416,177,C4_collection,Colecao (50 usuarios completos),GraphQL,6.21,30062
+1417,178,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.3352,554
+1418,178,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4083,574
+1419,178,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5439,554
+1420,178,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7629,87
+1421,178,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.3682,18380
+1422,178,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.9307,13238
+1423,178,C4_collection,Colecao (50 usuarios completos),REST,2.9428,29943
+1424,178,C4_collection,Colecao (50 usuarios completos),GraphQL,7.2044,30062
+1425,179,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5258,554
+1426,179,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2178,574
+1427,179,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,1.7983,554
+1428,179,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.3639,87
+1429,179,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.3211,18380
+1430,179,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.0881,13238
+1431,179,C4_collection,Colecao (50 usuarios completos),REST,3.3611,29943
+1432,179,C4_collection,Colecao (50 usuarios completos),GraphQL,7.2666,30062
+1433,180,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2757,554
+1434,180,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,15.0756,574
+1435,180,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.7174,554
+1436,180,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8975,87
+1437,180,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,15.9654,18380
+1438,180,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.7096,13238
+1439,180,C4_collection,Colecao (50 usuarios completos),REST,2.5476,29943
+1440,180,C4_collection,Colecao (50 usuarios completos),GraphQL,5.5968,30062
+1441,181,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.339,554
+1442,181,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.0789,574
+1443,181,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2127,554
+1444,181,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.4554,87
+1445,181,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,14.856,18380
+1446,181,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0957,13238
+1447,181,C4_collection,Colecao (50 usuarios completos),REST,2.416,29943
+1448,181,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8094,30062
+1449,182,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.9908,554
+1450,182,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.9973,574
+1451,182,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.065,554
+1452,182,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7939,87
+1453,182,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,14.549,18380
+1454,182,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.1006,13238
+1455,182,C4_collection,Colecao (50 usuarios completos),REST,2.5988,29943
+1456,182,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8128,30062
+1457,183,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2918,554
+1458,183,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.3695,574
+1459,183,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.318,554
+1460,183,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.3351,87
+1461,183,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.0269,18380
+1462,183,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.9923,13238
+1463,183,C4_collection,Colecao (50 usuarios completos),REST,3.0652,29943
+1464,183,C4_collection,Colecao (50 usuarios completos),GraphQL,7.0273,30062
+1465,184,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.1512,554
+1466,184,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.9098,574
+1467,184,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.6359,554
+1468,184,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.4364,87
+1469,184,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.1385,18380
+1470,184,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.3932,13238
+1471,184,C4_collection,Colecao (50 usuarios completos),REST,2.8139,29943
+1472,184,C4_collection,Colecao (50 usuarios completos),GraphQL,6.4291,30062
+1473,185,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.862,554
+1474,185,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2921,574
+1475,185,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2943,554
+1476,185,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7069,87
+1477,185,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.1024,18380
+1478,185,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0152,13238
+1479,185,C4_collection,Colecao (50 usuarios completos),REST,2.3407,29943
+1480,185,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8908,30062
+1481,186,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.3624,554
+1482,186,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.3456,574
+1483,186,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3626,554
+1484,186,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,5.1602,87
+1485,186,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.3676,18380
+1486,186,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.2122,13238
+1487,186,C4_collection,Colecao (50 usuarios completos),REST,2.6579,29943
+1488,186,C4_collection,Colecao (50 usuarios completos),GraphQL,5.8425,30062
+1489,187,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.1892,554
+1490,187,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2723,574
+1491,187,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1716,554
+1492,187,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.709,87
+1493,187,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.799,18380
+1494,187,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.5888,13238
+1495,187,C4_collection,Colecao (50 usuarios completos),REST,2.8814,29943
+1496,187,C4_collection,Colecao (50 usuarios completos),GraphQL,6.1135,30062
+1497,188,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6919,554
+1498,188,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.1125,574
+1499,188,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3675,554
+1500,188,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.3528,87
+1501,188,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.1993,18380
+1502,188,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.3438,13238
+1503,188,C4_collection,Colecao (50 usuarios completos),REST,3.0886,29943
+1504,188,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0225,30062
+1505,189,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.387,554
+1506,189,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.9696,574
+1507,189,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1392,554
+1508,189,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.0391,87
+1509,189,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,16.1702,18380
+1510,189,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.7303,13238
+1511,189,C4_collection,Colecao (50 usuarios completos),REST,2.9245,29943
+1512,189,C4_collection,Colecao (50 usuarios completos),GraphQL,6.3506,30062
+1513,190,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.7291,554
+1514,190,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2208,574
+1515,190,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.6552,554
+1516,190,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.35,87
+1517,190,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,19.6934,18380
+1518,190,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.1989,13238
+1519,190,C4_collection,Colecao (50 usuarios completos),REST,2.6336,29943
+1520,190,C4_collection,Colecao (50 usuarios completos),GraphQL,6.2571,30062
+1521,191,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.6282,554
+1522,191,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.2546,574
+1523,191,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3898,554
+1524,191,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.6645,87
+1525,191,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.3391,18380
+1526,191,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.3359,13238
+1527,191,C4_collection,Colecao (50 usuarios completos),REST,2.8723,29943
+1528,191,C4_collection,Colecao (50 usuarios completos),GraphQL,5.9527,30062
+1529,192,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5422,554
+1530,192,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.7431,574
+1531,192,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3753,554
+1532,192,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.9384,87
+1533,192,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,17.5747,18380
+1534,192,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,7.0271,13238
+1535,192,C4_collection,Colecao (50 usuarios completos),REST,2.8458,29943
+1536,192,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0685,30062
+1537,193,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.4866,554
+1538,193,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.376,574
+1539,193,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3104,554
+1540,193,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.3267,87
+1541,193,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,19.2673,18380
+1542,193,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.2231,13238
+1543,193,C4_collection,Colecao (50 usuarios completos),REST,2.8822,29943
+1544,193,C4_collection,Colecao (50 usuarios completos),GraphQL,6.0075,30062
+1545,194,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.7151,554
+1546,194,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.4501,574
+1547,194,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.1949,554
+1548,194,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.4914,87
+1549,194,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.8813,18380
+1550,194,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.8624,13238
+1551,194,C4_collection,Colecao (50 usuarios completos),REST,2.8505,29943
+1552,194,C4_collection,Colecao (50 usuarios completos),GraphQL,5.9348,30062
+1553,195,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.7531,554
+1554,195,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.0444,574
+1555,195,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.3066,554
+1556,195,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.8978,87
+1557,195,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,19.5042,18380
+1558,195,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.0742,13238
+1559,195,C4_collection,Colecao (50 usuarios completos),REST,2.5924,29943
+1560,195,C4_collection,Colecao (50 usuarios completos),GraphQL,7.3293,30062
+1561,196,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2628,554
+1562,196,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.6385,574
+1563,196,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.6963,554
+1564,196,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.1061,87
+1565,196,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.0676,18380
+1566,196,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,6.1171,13238
+1567,196,C4_collection,Colecao (50 usuarios completos),REST,2.7656,29943
+1568,196,C4_collection,Colecao (50 usuarios completos),GraphQL,5.962,30062
+1569,197,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5997,554
+1570,197,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.5624,574
+1571,197,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2663,554
+1572,197,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7496,87
+1573,197,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.2676,18380
+1574,197,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.2939,13238
+1575,197,C4_collection,Colecao (50 usuarios completos),REST,2.4956,29943
+1576,197,C4_collection,Colecao (50 usuarios completos),GraphQL,5.9022,30062
+1577,198,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,3.277,554
+1578,198,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.0065,574
+1579,198,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.2138,554
+1580,198,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,4.2304,87
+1581,198,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.1882,18380
+1582,198,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1984,13238
+1583,198,C4_collection,Colecao (50 usuarios completos),REST,3.3091,29943
+1584,198,C4_collection,Colecao (50 usuarios completos),GraphQL,5.7872,30062
+1585,199,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.5434,554
+1586,199,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,5.5151,574
+1587,199,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5983,554
+1588,199,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.7864,87
+1589,199,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.2269,18380
+1590,199,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.6547,13238
+1591,199,C4_collection,Colecao (50 usuarios completos),REST,3.5542,29943
+1592,199,C4_collection,Colecao (50 usuarios completos),GraphQL,6.7296,30062
+1593,200,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",REST,2.2729,554
+1594,200,C1_single_full,"Recurso unico completo (1 usuario, todos os campos)",GraphQL,4.5397,574
+1595,200,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",REST,2.5864,554
+1596,200,C2_single_partial,"Recurso unico parcial (1 usuario, 3 campos)",GraphQL,3.9319,87
+1597,200,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),REST,18.9406,18380
+1598,200,C3_nested_n1,Consulta aninhada (usuario + posts + comentarios),GraphQL,5.1824,13238
+1599,200,C4_collection,Colecao (50 usuarios completos),REST,3.0276,29943
+1600,200,C4_collection,Colecao (50 usuarios completos),GraphQL,5.899,30062
